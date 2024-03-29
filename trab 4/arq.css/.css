@@ -1,0 +1,35 @@
+h1 {
+    font-size: 24px; /* Modifica o tamanho da fonte do título h1 */
+}
+
+/* Modificar a cor do fundo de uma div, criando uma se não houver */
+.div-com-cor {
+    background-color: rgb(23, 105, 23); /* Cor de fundo padrão para a div */
+    min-height: 20px; /* Tamanho mínimo para visualização da cor */
+}
+
+/* Modificar a fonte do documento */
+body {
+    font-family: 'Roboto', sans-serif; /* Usando a fonte 'Roboto' do Google Fonts */
+}
+
+/* Criar uma div para que tenha tamanho fixo */
+.div-tamanho-fixo {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(10, 102, 133); /* Cor de fundo da div fixa */
+}
+
+/* Criar uma div para que tenha tamanho relativo */
+.div-tamanho-relativo {
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(179, 179, 10); /* Cor de fundo da div relativa */
+}
+
+/* Criar um span para que o texto seja em negrito vermelho e o fundo seja azul claro */
+.texto-estilizado {
+    font-weight: bold;
+    color: rgb(146, 0, 0);
+    background-color: rgb(0, 126, 168); /* Cor de fundo do span */
+}
